@@ -1,28 +1,29 @@
-html {
-    background-color: black;
-}
-
 body {              
     margin: 0;
     width: 100vw;
+    max-width: 100%;
 }
 
 .header {   
     display: inline-flex;
-    width: 100vw;
-    height: 86px;
+    width: 100%;
+    height: 5.95vw;
     background-color: #FFFFFF;
 }
 
 .header .left-header { 
     display: inline-flex;
-    width: 402px;
-    height: 19px;
-    margin: 35px 0px 32px 60px;
+    width: 27.92vw;
+    height: 1.32;
+    margin: 2.43vw 0vw 2.22vw 4.17vw;
 }
 
-.left-header .hlinks {
-    margin-left: 40px;
+.left-header .hlinks {  
+    margin-left: 2.78vw;
+    font-size: 0.97vw;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;                       
 }
 
 .left-header .hlinks:nth-child(1) {
@@ -30,36 +31,36 @@ body {
 }
 
 .header .logo {
-    margin: 28px 0px auto 208px;
+    margin: 1.94vw 0vw auto 14.44vw;
     color: #7D1314;
-    width: 98px;
-    height: 33px;
+    width: 6.80vw;
+    height: 2.29vw;
 }
 
 .header .right-header {
-    display: inline-flex;
-    margin: 20px auto 17px 339px;
-    width: 274px;
-    height: 49px;
-    font-size: 13px;
+    display: inline-flex;   
+    margin: 1.39vw auto 1.18vw 23.54vw;
+    width: 19.03vw;
+    height: 3.40vw;
+    font-size: 0.90vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
 }
 
 .right-header .search {
-    margin-left: 50px;
-    width: 43px;
-    height: 49px;
-    padding: 0px 0px 0px 0px;
+    margin-left: 3.47vw;
+    width: 2.99vw;
+    height: 3.40vw;
+    padding: 0vw 0vw 0vw 0vw;
     background-color: #FFFFFF;
     border: none;
     z-index: 5;
 }
 
 .search .icon {
-    width: 24px;
-    height: 24px;
+    width: 1.67vw;
+    height: 1.67vw;
     position: relative;
     visibility: visible;
 }
@@ -67,26 +68,26 @@ body {
 .search .title {
     position: relative;
     visibility: visible;
-    margin: 0px 0px;
-    font-size: 14px;
+    margin: 0vw 0vw;
+    font-size: 0.97vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
 }
 
 .right-header .currency {
-    margin-left: 50px;
-    width: 38px;
-    height: 49px;
-    padding: 0px 0px 0px 0px;
+    margin-left: 3.47vw;
+    width: 2.64vw;
+    height: 3.40vw;
+    padding: 0vw 0vw 0vw 0vw;
     background-color: #FFFFFF;
     border: none;
     z-index: 5; 
 }
 
 .currency .icon {
-    width: 20px;
-    height: 20px;
+    width: 1.39vw;
+    height: 1.39vw;
     position: relative;
     visibility: visible;
 }
@@ -94,26 +95,26 @@ body {
 .currency .title {
     position: relative;
     visibility: visible;
-    margin: 0px 0px;
-    font-size: 14px;
+    margin: 0vw 0vw;
+    font-size: 0.97vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
 }
 
 .right-header .cart {
-    margin-left: 50px;
-    width: 43px;
-    height: 49px;
-    padding: 0px 0px 0px 0px;
+    margin-left: 3.47vw;
+    width: 2.98vw;
+    height: 3.40vw;
+    padding: 0vw 0vw 0vw 0vw;
     background-color: #FFFFFF;
     border: none;
     z-index: 5;
 }   
 
 .cart .icon {
-    width: 24px;
-    height: 24px;
+    width: 1.67vw;
+    height: 1.67vw;
     position: relative;
     visibility: visible;
 }
@@ -121,8 +122,8 @@ body {
 .cart .title {
     position: relative;
     visibility: visible;
-    margin: 0px 0px;
-    font-size: 14px;
+    margin: 0vw 0vw;
+    font-size: 0.97vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -131,9 +132,7 @@ body {
 /* 
 
 
-
 END OF HEADER STYLING 
-
 
 
 */
@@ -147,8 +146,8 @@ END OF HEADER STYLING
 
 .catalogue-section {
     position: relative;
-    width: 1440px;
-    height: 850px;
+    width: 100%;
+    height: 59.03vw;
 }
 
 .catalogue-section .poster {
@@ -166,11 +165,11 @@ END OF HEADER STYLING
 }
 
 .overlay .title {
-    margin: 145px auto 0px 60px;
-    width: 590px;
-    height: 206px;
+    margin: 10.07vw auto 0vw 4.17vw;
+    width: 40.97vw;
+    height: 14.31vw;
     font-family: 'KyivType-Titling';
-    font-size: 86px;
+    font-size: 5.97vw;
     z-index: 5;                    
 }
 
@@ -179,28 +178,28 @@ END OF HEADER STYLING
     padding: 0 0 0 0;
     border: none;
     background: none;
-    margin: 58px auto auto 172px;
-    width: 270px;
-    height: 33px;
+    margin: 4.03vw auto auto 4.21vw;
+    width: 18.75vw;
+    height: 2.29vw;
 }
 
 .overlay .button-text {
-    top: 0px;
-    left: 0px;
+    top: 0vw;
+    left: 0vw;
     position: absolute;
     color: #FFFFFF;
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 24px;
-    margin: 0px 0px;
+    font-size: 1.67vw;
+    margin: 0vw 0vw;
 }
 
 .overlay .arrow {
-    top: 0px;
-    left: 0px;
+    top: 0vw;
+    left: 0vw;
     position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-left: 226px;
-    margin-top: 2px;   
+    width: 2.08vw;
+    height: 2.08vw;
+    margin-left: 15.69vw;
+    margin-top: 0.14vw;   
 }
