@@ -3,43 +3,68 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"/>
+
         <title>First site creating</title>
+
         <link rel="stylesheet" href="./styles/style.css">
+
+        <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans');</style>
+
         <script src="./scripts/main.js"></script> 
     </head>
+
+
     <body>
         <h1>DISCLAMER: Only for educational purposes!</h1>
 
-        <div class="main-header"> 
-            <div class="main-header-left-grid">
-                <a class="main-header-hlinks">Одяг</a>
+        <div class="header"> 
+            <div class="left-header">
+                <a class="hlinks">Одяг</a>
                 
-                <a class="main-header-hlinks">Аксесуари</a>
+                <a class="hlinks">Аксесуари</a>
                 
-                <a class="main-header-hlinks">Етнорегіони</a>
+                <a class="hlinks">Етнорегіони</a>
 
-                <a class="main-header-hlinks">Реставрація</a>
+                <a class="hlinks">Реставрація</a>
             </div>
 
-            <h2 class="main-logo">
-                ОДІЯ
-            </h2>
+            <img class="logo" src="./images/Main-logo" alt="ОДІЯ"></img>
 
-            <div class="main-header-right-grid">
-                <button class="main-header-utils">
-                    <image name="search-icon"></image>
-                    <small name="search-title"></small>
+            <div class="right-header">
+
+                <button class="search">
+                    <img class="icon" src="./images/Magnifying-glass"></img>
+                    <p class="title">Пошук</p>
                 </button>
-                <button class="main-header-utils">
-                    <image name="currency-icon"></image>
-                    <small name="currency-title"></small>
+
+                <button class="currency">
+                    <img class="icon" src="./images/Globe"></img>
+                    <p class="title">UAH</p>
                 </button>
-                <button class="main-header-utils">
-                    <image name="cart-icon"></image>
-                    <small name="cart-title"></small>
+
+                <button class="cart">
+                    <img class="icon" src="./images/Shopping-bag"></img>
+                    <p class="title">Кошик</p>
                 </button>
+
             </div>    
         </div>
+
+        <div class="catalogue-section">
+            <img class="poster" src="./images/Authentic-ukrainian-girl">
+
+            <div class="overlay">
+
+                <p class="title">Носи красу свого народу</p>
+    
+                <button>
+                    <p class="button-text">Перейти в каталог</p>
+                    <img class="arrow" src="./images/Catalogue-arrow">
+                </button>
+
+            </div>
+        </div>
+
 
         <p>To do list:</p>
         
