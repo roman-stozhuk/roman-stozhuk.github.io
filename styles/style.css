@@ -49,6 +49,7 @@ body {
 }
 
 .right-header .search {
+    position: relative;
     margin-left: 3.47vw;
     width: 2.99vw;
     height: 3.40vw;
@@ -59,23 +60,28 @@ body {
 }
 
 .search .icon {
+    top: 0vw;
+    left: 0.66vw;
+    position: absolute;
     width: 1.67vw;
     height: 1.67vw;
-    position: relative;
     visibility: visible;
 }
 
 .search .title {
-    position: relative;
+    top: 2.15vw;
+    left: 0vw;
+    position: absolute;
     visibility: visible;
-    margin: 0vw 0vw;
     font-size: 0.97vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 
 .right-header .currency {
+    position: relative;
     margin-left: 3.47vw;
     width: 2.64vw;
     height: 3.40vw;
@@ -86,23 +92,28 @@ body {
 }
 
 .currency .icon {
-    width: 1.39vw;
-    height: 1.39vw;
-    position: relative;
+    top: 0vw;
+    left: 0.49vw;
+    position: absolute;
+    width: 1.67vw;
+    height: 1.67vw;
     visibility: visible;
 }
 
 .currency .title {
-    position: relative;
+    top: 2.15vw;
+    left: 0.31vw;
+    position: absolute;
     visibility: visible;
-    margin: 0vw 0vw;
     font-size: 0.97vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 
 .right-header .cart {
+    position: relative;
     margin-left: 3.47vw;
     width: 2.98vw;
     height: 3.40vw;
@@ -113,20 +124,24 @@ body {
 }   
 
 .cart .icon {
+    top: 0vw;
+    left: 0.66vw;
+    position: absolute;
     width: 1.67vw;
     height: 1.67vw;
-    position: relative;
     visibility: visible;
 }
 
 .cart .title {
-    position: relative;
+    top: 2.15vw;
+    left: 0vw;
+    position: absolute;
     visibility: visible;
-    margin: 0vw 0vw;
     font-size: 0.97vw;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 
 /* 
